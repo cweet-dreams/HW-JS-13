@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+body {
+   background: beige;
+    text-align: center;
+}
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: lightpink;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/*list*/
+ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.5;
+}
+/*div*/
+.user-info{
+    border: 1px solid grey;
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    padding: 10px;
+    background: skyblue;
+    text-align: left;
+}
+.user-info i {
+    color: red;
+    margin-left: 90%;
+
+}
